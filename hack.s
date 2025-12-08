@@ -1,2 +1,7 @@
-# X86 assembler code that can be assembled into binary hack.o
-# Then, you can use "R hack.o <S> <L>" to read the binary instructions from hack.o and put them into solution.txt
+.text
+.globl _start
+_start:
+    movabs $0x55555555e310, %rax
+    movl $100, (%rax)
+    leave
+    ret

